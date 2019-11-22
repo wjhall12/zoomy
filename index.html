@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+
+	<title>Zoomy Airlines</title>
+
+	<!--	Favicon-->
+  <link rel="icon" href="img/Corporate Logo.png">
+	
+	<!-- Google font -->
+	<link href="https://fonts.googleapis.com/css?family=Montserrat|PT+Sans|Poppins|Ubuntu&display=swap" rel="stylesheet">
+
+	<!-- Bootstrap -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	
+	<!-- CSS Stlylesheet -->
+	<link type="text/css" rel="stylesheet" href="css/style.css"/>
+	
+	<!-- Font Awesome -->
+  <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+	
+	
+</head>
+
+		
+<body>
+	
+<section id="title">
+<!--	Navigation Section-->
+				
+  <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary " >
+ 		<div class="container-fluid">
+        <a class="navbar-brand" href=""> 
+			<a href="#home">
+		 <a class="navbar-brand" href=""><img class="nav-image" src="img/Corporate Logo White 2.png" alt="nav-image"></a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#title">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#booking">Booking</a>
+            </li>
+			  <li class="nav-item">
+              <a class="nav-link" href="#city">Destinations</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#youtube">Video</a>
+            </li>
+			     <li class="nav-item">
+              <a class="nav-link" href="#footer">Promotions</a>
+            </li>
+          </ul>
+
+     		   </div>
+		</div>
+		
+     </nav>
+
+<!--	Background Image-->
+	<div id="booking" class="section">
+		<div class="section-center">
+			<div class="container">
+				<div class="row">
+					<div class="booking-form">
+						<form>
+							<div class="form-group">
+								<div class="form-checkbox">
+									<label for="roundtrip">
+										<input type="radio" id="roundtrip" name="flight-type">
+										<span></span>Roundtrip
+									</label>
+									<label for="one-way">
+										<input type="radio" id="one-way" name="flight-type">
+										<span></span>One way
+									</label>
+									<label for="multi-city">
+										<input type="radio" id="multi-city" name="flight-type">
+										<span></span>Multi-City
+									</label>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-md-6">
+									<div class="form-group">
+										<span class="form-label">Flying from</span>
+										<input class="form-control" type="text" placeholder="City or airport">
+									</div>
+								</div>
+								<div class="col-md-6">
+									<div class="form-group">
+										<span class="form-label">Flyning to</span>
+										<input class="form-control" type="text" placeholder="City or airport">
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-md-3">
+									<div class="form-group">
+										<span class="form-label">Departing</span>
+										<input class="form-control" type="date" required>
+									</div>
+								</div>
+								<div class="col-md-3">
+									<div class="form-group">
+										<span class="form-label">Returning</span>
+										<input class="form-control" type="date" required>
+									</div>
+								</div>
+								<div class="col-md-2">
+									<div class="form-group">
+										<span class="form-label">Adults (18+)</span>
+										<select class="form-control">
+											<option>1</option>
+											<option>2</option>
+											<option>3</option>
+										</select>
+										<span class="select-arrow"></span>
+									</div>
+								</div>
+								<div class="col-md-2">
+									<div class="form-group">
+										<span class="form-label">Children (0-17)</span>
+										<select class="form-control">
+											<option>0</option>
+											<option>1</option>
+											<option>2</option>
+										</select>
+										<span class="select-arrow"></span>
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-md-3">
+									<div class="form-group">
+										<span class="form-label">Travel class</span>
+										<select class="form-control">
+											<option>Economy class</option>
+											<option>Business class</option>
+											<option>First class</option>
+										</select>
+										<span class="select-arrow"></span>
+									</div>
+								</div>
+								<div class="col-md-3">
+									<div class="form-btn">
+										<button class="submit-btn">Show flights</button>
+									</div>
+								</div>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	 </section>
+	  
+<!--	  Testimonials-->
+	  
+<!--	  Cities-->
+	  
+<city class="white-section" id="city">
+    <div class="container-fluid">
+		<h1 class="video-title">We currently fly to 9 cities in the U.S.</h1>
+		<img class="flyer-image" src="img/Corporate Logo.png" alt="flyer-image">
+		
+	</div>
+	
+
+	<div class="container-fluid">
+      <div class="row">
+ 
+        <div class="feature-box col-lg-4">
+          <img class="image-thumb" src="img/Atlanta.jpg" alt="image-thumb">
+          <h3 class="feature-title">Atlanta, Georgia</h3>
+          <p>Flights to all 9 U.S. cities start at 9am and end at 11pm everyday</p>
+        </div>
+
+        <div class="feature-box col-lg-4">
+          <img class="image-thumb" src="img/Birmingham.jpg" alt="image-thumb">
+          <h3 class="feature-title">Birmingham, Alabama</h3>
+          <p>Flights from Atlanta to Birmingham: 1pm and 7pm. And from Birmingham to Atlanta: 10 am and 6 pm everyday.</p>
+        </div>
+
+        <div class="feature-box col-lg-4">
+          <img class="image-thumb" src="img/New Orleans.jpg" alt="image-thumb">
+          <h3 class="feature-title">New Orleans, Louisiana</h3>
+          <p>Flights from Atlanta to New Orleans: 12pm and 7pm. And from New Orleans to Atlanta: 11 am and 5 pm everyday.</p>
+        </div>
+		  
+		  <div class="feature-box col-lg-4">
+          <img class="image-thumb" src="img/Charlotte.jpg" alt="image-thumb">
+          <h3 class="feature-title">Charlotte, North Carolina</h3>
+          <p>Flights from Atlanta to Charlotte: 11am and 6pm. And from Charlotte to Atlanta: 12 pm and 7 pm everyday.</p>
+        </div>
+
+        <div class="feature-box col-lg-4">
+          <img class="image-thumb" src="img/orlando.jpg" alt="image-thumb">
+          <h3 class="feature-title">Orlando, Florida</h3>
+          <p>Flights from Atlanta to Orlando: 12pm, 4pm, and 8pm. And from Orlando to Atlanta: 1 pm and 9 pm everyday.</p>
+        </div>
+
+        <div class="feature-box col-lg-4">
+          <img class="image-thumb" src="img/miami.jpg" alt="image-thumb">
+          <h3 class="feature-title">Miami, Florida</h3>
+          <p>Flights from Atlanta to Miami: 8am, 11am, 2pm and 6:30pm. And from Miami to Atlanta: 9 am and 5 pm everyday.</p>
+        </div>
+		  
+		  <div class="feature-box col-lg-4">
+          <img class="image-thumb" src="img/Nashville.jpg" alt="image-thumb">
+          <h3 class="feature-title">Nashville, Tennesee</h3>
+          <p>Flights from Atlanta to Nashville: 11am, 3pm, and 7pm. And from Nashville to Atlanta: 1:30 pm and 8 pm everyday.</p>
+        </div>
+
+        <div class="feature-box col-lg-4">
+          <img class="image-thumb" src="img/Houston.jpg" alt="image-thumb">
+          <h3 class="feature-title">Houston, Texas</h3>
+          <p>Flights from Atlanta to Houston: 10am, 2pm, and 6pm. And from Houston to Atlanta: 11:30 am and 7:30 pm everyday.</p>
+        </div>
+
+        <div class="feature-box col-lg-4">
+          <img class="image-thumb" src="img/dallas.jpg" alt="image-thumb">
+          <h3 class="feature-title">Dallas, Texas</h3>
+          <p>Flights from Atlanta to Dallas: 9am, 1pm, and 5pm. And from Dallas to Atlanta: 10:30 am and 6:30 pm everyday.</p>
+        </div>
+      </div>
+
+
+    </div>
+      
+  </section>
+	  
+<!-- Promotion-->
+	
+	 <section class="colored-section" id="youtube">
+	<h1 class="video-title">Check out our video commercial</h1>
+
+    <div class="container-fluid">
+	<div class="row">
+    <div class="col-sm-12">	
+	<div class="embed-responsive embed-responsive-16by9">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/d9tAZ67HR8I" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+		</div>
+		  
+	</div>
+		  </div>
+		</section>
+	  
+	  <!-- Footer -->
+
+  <footer class="white-section" id="footer">
+    <div class="container-fluid">
+		<h1 class="video-title">Our Frequent Flyer Program</h1>
+		<img class="flyer-image" src="img/Corporate Logo.png" alt="flyer-image">
+		<p class="frequent">The Zoomy Frequent flyer program is convenient for our for passengers who often travel to and from Atlanta. And for customers who live and travel to U.S. cities like New Orleans, Miami, Charlotte, Dallas and Houston.  By becoming a Zoomy Frequent flyer member, you'll earn miles based on the amount you pay for your flight with Zoomy Airlines.Those miles can be redeemed for free air travel or cashed in for cold hard cash.  You will also earn double miles if you pay before 30 days of your flight.</p>
+		
+		<h1> We Are Hiring</h1>
+		<p class="hiring">To apply for a job with Zoomy please email your resume to <b>jobs@zoomy.com</b>  </p>
+      <i class="social-icon fab fa-facebook-f"></i>
+      <i class="social-icon fab fa-twitter"></i>
+      <i class="social-icon fab fa-instagram"></i>
+      <i class="social-icon fas fa-envelope"></i>
+      <p>© Copyright 2019 Zoomy Airlines</p>
+		<p>Stock images and videos from pexels.com, pixabay.com. <br>CSSs forms, navigation, containers from getbootstrap.com </p>
+    </div>
+  </footer>
+
+
+	 	  
+</body>
+
+</html>
